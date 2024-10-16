@@ -205,7 +205,7 @@ h1 {font-size: 3rem;
   }
 
   .featured img{
-    height: 300px;
+    height: 250px;
     object-fit: cover;
   }
 
@@ -292,9 +292,13 @@ h1 {font-size: 3rem;
     max-width: 85%;
   }
 
+  .featured img{
+    height: 300px;
+  }
+
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 1200px){
   .featured-organizations-list{
     grid-template-columns: repeat(3,1fr);
   }

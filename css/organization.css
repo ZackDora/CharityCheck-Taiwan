@@ -380,7 +380,7 @@
 
         .contact-information{
           display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
 
         .where-the-funds-go .donation-usages-list{
@@ -442,7 +442,7 @@
         }
 
         .grid-charity-types .list-item-properties img{
-          height: 60vh;}
+          max-height: 60vh;}
 
         .grid-charity-types li{
           font-weight: bold;}
@@ -459,4 +459,11 @@
           grid-row: span-2
         }
 
+}
+
+@media screen and (min-width: 1200px){
+  .contact-information{
+    display: grid;
+      grid-template-columns: repeat(5, 1fr);
+  }
 }
