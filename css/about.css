@@ -172,7 +172,16 @@
    }
 
    .evaluation ul li{
-      margin: 1rem;
+      margin-bottom: 1rem;}
+
+
+   .inspirations ul{
+    list-style-type: disc;
+    margin-left: 2rem;
+   }
+
+   .inspirations ul a, .inspirations ul a:active{
+    color: black;
    }
 
    footer{

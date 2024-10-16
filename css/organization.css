@@ -30,7 +30,7 @@
   }
 
   .margin{
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .image-margin{
@@ -302,6 +302,17 @@
       width: 100% ;
     }
 
+    .review-score-donate{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .review-score-donate a, .review-score-donate a:active{
+      color: white;
+    }
+
     @media screen and (min-width: 800px){
 
         .primary-navigation {
@@ -370,7 +381,6 @@
         .contact-information{
           display: grid;
             grid-template-columns: repeat(5, 1fr);
-            margin-top: 4rem;
         }
 
         .where-the-funds-go .donation-usages-list{
