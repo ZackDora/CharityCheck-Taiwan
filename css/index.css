@@ -240,7 +240,7 @@ h1 {font-size: 3rem;
     color: grey;
   }
 
-@media screen and (min-width: 950px){
+@media screen and (min-width: 750px){
 
   .primary-navigation {
     display: block;
@@ -272,12 +272,8 @@ h1 {font-size: 3rem;
   }
 
   .featured-organizations-list{
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .featured{
-  width: 31%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 
   .contact{
@@ -294,4 +290,10 @@ h1 {font-size: 3rem;
     max-width: 85%;
   }
 
+}
+
+@media screen and (min-width: 750px){
+  .featured-organizations-list{
+    grid-template-columns: repeat(3,1fr);
+  }
 }

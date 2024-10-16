@@ -160,7 +160,8 @@
       }
 
       .list-item img{
-        height: 300px;
+        min-height: 200px;
+        max-height: 300px;
         object-fit: cover;
       }
 
@@ -190,7 +191,7 @@
       }
 
 
-    @media screen and (min-width: 950px){
+    @media screen and (min-width: 750px){
 
         .primary-navigation {
           display: block;
@@ -223,9 +224,18 @@
 
         .organizations-list{
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
-
+          grid-template-columns: repeat(2, 1fr);
         }
 
+        .list-item img{
+          height: 300px;
+          object-fit: cover;}
         }
   
+        @media screen and (min-width: 1200px){
+          .organizations-list{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+  
+          }
+        }
